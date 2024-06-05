@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.container{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    border: 2px solid #000;
+}
+
+.container .main-header{
+    width: 100%;
+    height: 60px;
+    background-color: #171F1A;
+}
+
+
+.logo{
+    width:20%;
+    height: 60px;
+    float: left;
+   color: aliceblue;
+   margin-top: 10px;
+}
+
+.logo i{
+    padding-left:5px ;
+}
+
+.name{
+    float: right;
+    padding-right: 118px;
+}
+
+
+
+.logo h6{
+    font-size: 10px;
+}
+
+.menu
+{
+    width:50%;
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+}
+.menu a{
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    font-size:xx-small;
+}
+
+.menu a:hover{
+    color:grey;
+}
+
+
+.login{
+    width:30%;
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+  
+   
+    
+}
+
+.login a{
+    font-size: xx-small;
+    color: aliceblue;
+  
+  
+}
+
+.slider{
+    width:100%;
+    height: 120vh;
+    background-image: url(../images/chinees-food-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+.tag-line{
+    text-align: center;
+    margin-right: 230px;
+    padding-top: 50px;
+    
+}
+
+.tag-line h1{
+    color: aliceblue;
+   
+}
+
+.tag-line button{
+    padding: 5px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+   margin-top: 5px;
+   cursor: pointer;
+}
+
+.tag-line button:hover{
+
+    color: #000;
+}
+
+.product{
+    width: 100%;
+    min-height: 100px;
+    
+}
+
+.products h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    
+}
+
+
+ .product.row
+{
+    width: 100%;
+    min-height: 100px;
+   
+}
+
+.col{
+ width: 22.5%;
+ min-height:100px;
+ float: left;
+ margin-top: 15px;
+ margin-left: 2%;
+ 
+}
+
+
+.col img{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.col h4{
+    text-align: center;
+}
+
+.col p{
+    text-align: justify;
+    font-size: 12px;
+    color:#171F1A;
+    margin-top: 5px;
+}
+
+.amenties{
+    width: 100%;
+    min-height: 100px;
+}
+
+.amenties h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.clerfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+

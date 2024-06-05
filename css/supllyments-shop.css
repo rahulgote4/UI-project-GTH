@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    border: 5px solid #000;
+    
+}
+.main-header-div{
+    width: 100%;
+    min-height: 50px;
+   
+}
+
+.container .logo{
+    width: 22%;
+    height: 60px;
+    float: left;
+    background-color: #8F7B7B;
+
+}
+
+.logo h5{
+    color: greenyellow;
+    padding: 10px;
+}
+.container .menu{
+    width: 51%;
+    height: 60px;
+    float: left;
+    background-color: #8F7B7B;
+    padding-top: 10px;
+}
+
+.menu a{
+    padding: 3px;
+    color: greenyellow;
+    text-decoration: none;
+   
+}
+.menu a:hover{
+    background-color:#8F7B7B ;
+    color: black;
+}
+
+.container .social{
+    width: 22%;
+    height: 60px;
+    float: left;
+    background-color: #8F7B7B;
+    padding-top: 10px;
+
+}
+
+.social i{
+    
+    padding: 5px;
+    font-size: large;
+}
+
+
+.container .menu:nth-child(2)
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container.slider{
+   width: 100%;
+   min-height: 100px;
+   background-color: #000;
+   
+}
+
+.slider .ism-slider{
+    padding-top: 10px;
+
+}
+
+
+.main-pro-div{
+
+    width:100%;
+    min-height: 300px;
+  
+}
+
+.main-pro-div h2{
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+
+ .product1{
+    width: 25%;
+    min-height: 100px;
+    float: left; 
+    margin-left: 20px;
+    
+}
+
+
+
+
+
+

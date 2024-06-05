@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            box-sizing: border-box;
+            border: 5px solid black;
+            border-style: double;
+            text-align: center;
+                margin-bottom: 20px;
+                background-image: radial-gradient(#FBD3E9,#BB377D);
+                font-style: italic;
+                font-size: large;
+
+                
+        }
+        
+     
+    
+        #div1{
+        
+            box-sizing: border-box;
+            border: 5px solid salmon;
+            border-style: double;
+            text-align: center;
+            background-image: url(/images/background\ image.webp);
+            color: aliceblue;
+
+        }
+        .h1{
+            animation: blinker 1s infinite;
+
+        }
+        @keyframes blinker{50%{
+            opacity: 0;
+        }}
+        #h2{
+            animation: blinker 1s infinite;
+
+        }
+        @keyframes blinker{50%{
+            opacity: 0;
+        }}
+        
+    </style>
+</head>
+<body>
+
+    <div class="div">
+        <h2 class="box2" id="h2">
+            What is CSS?
+        </h2>
+        <p>
+            Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+        </p>
+    </div>
+
+    <div id="div1">
+        <h2 class="h1">
+            What is Cascading Order?
+        </h2>
+        <p>
+            The Cascading Order in CSS is a set of rules that determine which style will be applied to an element when multiple styles are conflicting. These rules can be used to achieve a desired layout or design, but understanding how they work is crucial to effectively use CSS. In this article, we will explore the different cascading methods that can be used inside the cascading order. First, let’s understand the basic concept of cascading.
+        </p>
+    </div>
+    
+</body>
+</html>

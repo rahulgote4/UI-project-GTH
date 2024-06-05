@@ -1,0 +1,186 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+   
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+body{
+    background-color: bisque;
+}
+
+.container.main-div{
+    width: 100%;
+    min-height: 300px;
+    
+   
+}
+
+.first-box{
+    width: 50%;
+    height: 450px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #fe4743;
+
+}
+
+.first-div{
+    width: 100%;
+    height: auto;
+}
+
+.first-div h1{
+    padding-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first-div pre{
+    
+    padding-left: 40px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first-div input[type=button]{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 210px;
+    padding: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fe4743;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.second-box{
+    width: 50%;
+    min-height: 450px;
+    float: right;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #fefefe;
+   
+
+}
+
+.second h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.second p{
+    text-align: center;
+}
+
+ .icon{
+    margin-left: 120px;
+}
+
+
+
+.second i{
+    padding:10px;
+    margin-top: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+.name{
+    width: 70%;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+   border: 1px solid #000;
+    
+}
+
+.name input[type=text]{
+  
+    width: 80%;
+    outline: 0;
+    border:none;
+}
+.name i{
+    font-size: 10px;
+}
+
+
+.email{
+    width: 70%;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+   border: 1px solid #000;
+}
+
+.email input[type=email]{
+    width: 80%;
+    outline: 0;
+    border:none;
+}
+
+.email i{
+    font-size: 10px;
+}
+
+.password{
+    width: 70%;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+   border: 1px solid #000;
+}
+
+.password input[type=password]{
+    width: 80%;
+    outline: 0;
+    border:none;
+}
+
+
+.password i{
+    font-size: 10px;
+}
+
+.butoon{
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+
+.butoon input[type=button]{
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    color: #fefefe;
+    background-color:#fe4743;
+    border: none;
+}
+
+
+
+
+
+
+
+
+

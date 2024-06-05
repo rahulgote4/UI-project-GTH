@@ -1,0 +1,58 @@
+.maindiv{
+    border: 2px solid black;
+}
+
+.maindiv .first{
+    background-color: aqua;
+    height: 100%;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+.first .fh2{
+    background-color: orange;
+    color: black;
+    margin: 20px;
+}
+
+.first .fp{
+    background-color: green;
+    color: black;
+    margin: 20px;
+}
+
+.two{
+    background-color: yellow;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+.two .th2{
+    background-color: wheat;
+    color: black;
+    margin: 20px;
+}
+
+.two .tp{
+    background-color: lightseagreen;
+    color: black;
+    margin: 20px;
+}
+
+.three{
+    background-color: lightcoral;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+.three .tth2{
+    background-color: green;
+    color: black;
+    margin: 20px;
+}
+
+.three .ttp{
+    background-color: skyblue;
+    color: black;
+    margin:20px;
+}

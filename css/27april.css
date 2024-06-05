@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.maindiv{
+    background-color:white;
+
+    padding-top: 10px;
+    min-height: 70px;
+    padding: 5px;
+}
+.menu a{
+    padding:10px;
+
+    color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: cyan;
+}
+
+.header h1{
+    float: left;
+    color: black;
+    margin-left: 20px;
+}
+
+.header h1:hover{
+    color: coral;
+}
+
+.menu
+{
+    float: right;
+    padding-top: 10px;
+    margin-right: 50px;
+    
+}
+
+
+
+.img1 {
+height: 80vh;
+width: 100%;
+ background-image: url(/images/mountain1.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+
+
+}
+
+.imgline p {
+    padding-top: 172px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.getstarted{
+text-align: center;
+padding-top: 10px;
+}
+
+.getstarted button{
+    padding:5px;
+    background-color: black;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.getstarted button:hover{
+    background-color: lightslategray;
+}
+
+.logos{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    min-height: 200px;
+}
+
+.pen{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    
+}
+
+.pen h2{
+    padding-top: 20px;
+}
+
+.pen p{
+    padding-top: 20px;
+}
+
+.layer{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.layer h2{
+    padding-top:20px ;
+}
+
+.layer p{
+    padding-top: 20px;
+}
+
+.rocket{
+    float: right;
+    width: 33.33%;
+    text-align: center;
+
+}
+
+.rocket h2{
+    padding-top: 20px;
+}
+
+.rocket p{
+    padding-top: 20px;
+}
+
+.fcontent{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    min-height: 136px;
+    text-align: center;
+
+
+}
+
+.fcontent h2{
+    text-decoration: underline;
+     
+}
+    
+.fcontent p{
+    padding-top: 20px;
+}
+
+.video{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.squars{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    min-height: 163px;
+    display: flex;
+    text-align: center;
+
+
+}
+
+.squars{
+    flex: 30%;
+}
+
+.squars h2{
+    text-decoration: underline;
+}
+
+.button{
+    margin-top: 10px;
+
+}
+
+.button:hover{
+    background-color: cadetblue;
+}
+
+.sencondlast{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.heard{
+    width: 80%;
+    margin: auto;
+}
+
+.sencondlast p{
+    margin-top: 10px;
+}
+
+.sencondlast button{
+    margin-top: 10px;
+    color: blueviole;
+}
+
+.sencondlast button:hover{
+    background-color: cadetblue;
+    
+}
+
+.sencondlast h2{
+    text-decoration: underline;
+}
+
+.lastsection{
+    margin-top: 50px;
+    background-color: lightslategrey;
+    padding: 50px;
+    min-height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.squars{
+    flex: 30%;
+}
+
+.copyright pre{
+    float: left;
+    padding-right: 50px;
+    width: 25%;
+}
+
+.policies{
+    width: 25%;
+    float: right;
+}

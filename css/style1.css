@@ -1,0 +1,19 @@
+
+        h2{
+            color: white;
+        }
+        div.one{
+           background-image: linear-gradient(#12c2e9,#c471ed,#f64f59);
+        }
+
+        div.two{
+            background-image: linear-gradient(#b92b27,#1565C0);
+      }
+
+      div.three{
+        background-image: linear-gradient(#FF0099,#493240);
+      }
+
+      div.four{
+        background-image: linear-gradient(#1f4037,#99f2c8);
+      }
