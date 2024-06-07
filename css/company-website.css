@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contanier
+{
+    width: 60%;
+    min-height: auto;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+.main-header{
+    width: 100%;
+    min-height: 380px;
+    background-image: url(../images/contact-us1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+
+.header{
+    width: 100%;
+    height: 60px;
+  
+}
+
+.logo{
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu
+{
+    width: 55%;
+    height: 60px;
+    float: left;
+
+}
+
+
+.menu a{
+    text-decoration: none;
+}
+
+.contact{
+    width: 25%;
+    height: 60px;
+    float: left;
+}
