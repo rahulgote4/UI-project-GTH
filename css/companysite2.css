@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.box{
+    width: 80%;
+    min-height: 1000px;
+    margin: auto;
+  
+}
+
+.main-header{
+    width: 100%;
+    min-height: 200px;
+    background-image: url(/images/office-building-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.header{
+    width: 100%;
+    min-height: 80px;
+   
+}
+
+.logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+.logo img{
+    width: 15%;
+    margin-left: 30px;
+  
+}
+
+.menu
+{
+    width: 50%;
+    height: 80px;
+    float: left;
+    margin-top: 15px;
+    font-size: large;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 8px;
+    color:white;
+}
+
+.menu a:hover{
+    color: wheat;
+    background-color: brown;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.contact{
+    width: 25%;
+    height: 80px;
+    float: left;
+    margin-top: 15px;
+}
+
+.contact input[type=button]
+{
+    background-color: #000;
+    color: aliceblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 3px;
+    margin-left: 50px;
+    outline: none;
+  
+
+}
+
+
+.main-header .con{
+    width: 30%;
+    height:200px;
+    margin-left: 50px;
+}
+
+.con p{
+    text-align: justify;
+    color:black;
+}
+
+.con h1{
+    color:blue;
+}
+
+
+.main-con{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+
+}
+
+.map{
+
+    width: 35%;
+    min-height: 300px;
+    
+    margin-top: 40px;
+   
+}
+
+.map iframe{
+    width:80%;
+    height: 400px;
+    margin-left: 40px;
+}
+
+.info{
+    width: 60%;
+    min-height: 300px;
+    
+    margin-top: 40px;
+   
+    margin-right: 30px;
+}
+.gettouch p{
+    text-align: justify;
+}
+
+.add{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.call{
+    margin-left: 20px;
+}
+
+.call i{
+    position: absolute;
+    margin-left: -20px ;
+    margin-top: 10px;
+
+}
+
+.mail{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mail i{
+    position: absolute;
+    margin-left: -20px ;
+    margin-top: 10px;
+
+}
+
+.adress{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.adress p{
+    text-align: justify;
+}
+
+.adress i{
+    position: absolute;
+    margin-left: -20px ;
+    margin-top: 10px;
+
+}
+
+.facebook{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.facebook a{
+    text-decoration: none;
+}
+
+.facebook i{
+    position: absolute;
+    margin-left: -20px ;
+    margin-top: 10px;
+
+}
+
+.link{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.link i{
+    position: absolute;
+    margin-left: -20px ;
+    margin-top: 10px;
+    
+}
+
+
+.msg{
+    width: 100%;
+    min-height: 60px;
+    margin-top: 20px;
+}
+
+.name-email{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.name-email  input[type=text]
+{
+   width: 45%; 
+   margin-right: 10px;
+   padding: 5px;
+   outline: none;
+  
+}
+
+.name-email  input[type=email]
+{
+   width: 45%; 
+   margin-left: 10px;
+   padding: 5px;
+   outline: none;
+  
+}
+
+.phone-sub{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.phone-sub  input[type=number]
+{
+   width: 45%; 
+   margin-right: 10px;
+   padding: 5px;
+   outline: none;
+   
+}
+
+.phone-sub  input[type=text]
+{
+   width: 45%; 
+   margin-left: 10px;
+   padding: 5px;
+  outline: none;
+}
+
+
+.service{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.service select
+{
+   width: 95%; 
+
+   padding: 5px;
+  outline: none;
+}
+
+.comment{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.comment input[type=text]
+{
+  width: 95%;
+  padding-bottom: 90px;
+  outline: none;
+  
+}
+
+.button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button input[type=button]
+{
+  width: 30%;
+  padding: 8px;
+  outline: none;
+  background-color: aqua;
+  color:black;
+  
+}
+
+.footer{
+    width:100%;
+    min-height: 60px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+
+
+.last-logo{
+    width: 20%;
+    min-height: 60px;
+    margin-left: 5px;
+   
+}
+
+
+.last-logo img{
+    width: 30%;
+}
+
+.last-logo p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.last-logo i{
+    margin-top: 30px;
+    padding: 10px
+}
+
+.serv{
+    width: 20%;
+    min-height: 60px;
+    margin-left: 30px;
+  
+    
+}
+.serv h4{
+    text-align: center;
+    margin-top: 20px;
+    color:lightseagreen;
+}
+
+.serv ul{
+    list-style-type:none;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.serv ul li{
+    padding-bottom: 5px;
+    
+}
+
+.serv ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.company{
+    width: 20%;
+    min-height: 60px;
+    margin-left: 30px;
+   
+}
+
+.company h4{
+    text-align: center;
+    margin-top: 20px;
+    color: lightseagreen;
+}
+
+.company ul{
+    list-style-type:none;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.company ul li{
+    padding-bottom: 5px;
+    
+}
+
+.company ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.sub{
+    width: 27%;
+    min-height: 60px;
+    margin-left: 30px;
+   
+}
+
+.sub h4{
+    text-align: center;
+    margin-top: 20px;
+    color: lightseagreen;
+}
+
+.last-mail{
+    margin-top: 30px;
+}
+
+.last-mail input[type=email]
+{
+    padding-left: 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color:lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.last-mail input[type=button]
+{
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+.last-footer{
+    width: 100%;
+    margin-top:100px ;
+    border-top: 1px solid lightgray;
+   
+
+}
+
+.copy{
+    float: left;
+    padding-left: 50px;
+}
+
+.copy p{
+ color: gray;
+}
+
+.policiy{
+    float: right;
+    padding-right: 50px;
+}
+
+.policiy pre{
+color: gray;
+}
+
+
+
+.clerfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+

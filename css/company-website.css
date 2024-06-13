@@ -15,36 +15,51 @@
 .main-header{
     width: 100%;
     min-height: 380px;
-    background-image: url(../images/contact-us1.avif);
+    background-image: url(../images/office-compnay.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+    opacity: 1.1;
+   
+    
 }
 
 
 .header{
     width: 100%;
-    height: 60px;
-  
+    height: 50px;
+   border: 1px solid gray;
 }
 
+
 .logo{
-    width: 20%;
+    width: 10%;
     height: 60px;
     float: left;
 }
 
 .logo img{
     width: 50px;
-    height: 50px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .menu
 {
-    width: 55%;
+    width: 65%;
     height: 60px;
     float: left;
+    margin-top: 10px;
 
+}
+.menu a{
+   padding: 5px;
+   color:crimson;
+   font-size: 15px;
+}
+.menu a:hover{
+    color: black;
+    background-color: bisque;
 }
 
 
@@ -56,4 +71,21 @@
     width: 25%;
     height: 60px;
     float: left;
+    margin-top: 15px;
+}
+
+.contact i{
+    padding: 5px;
+
+}
+
+.contact h5{
+   margin-left: 80px;
+   margin-top: -30px;
+   color:black;
+}
+
+.contact p{
+    font-size: 11px;
+    margin-left: 66px;
 }
